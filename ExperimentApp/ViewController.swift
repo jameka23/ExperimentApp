@@ -18,6 +18,12 @@ class ViewController: UIViewController {
 
     
     // create an action
+    @IBAction func experiment(sender:UIButton!){
+        //create a view controller (stock)
+        let cameraViewlController = UIImagePickerController()
+        
+        self.present(cameraViewlController, animated: true, completion: nil)
+    }
 
 }
 
